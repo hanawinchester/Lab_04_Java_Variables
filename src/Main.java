@@ -4,11 +4,11 @@ public class Main
     {
         int intOperandA = 1;
         int intOperandB = 2;
-        int intSum = 3;
-        int intProduct = 4;
-        int intDifference = 5;
-        int intQuotient = 6;
-        int intModulo = 7;
+        int intSum;
+        int intProduct;
+        int intDifference;
+        int intQuotient;
+        int intModulo;
 
         intSum = intOperandA + intOperandB; //+
         System.out.println("The sum using ints of " + intOperandA + " and " + intOperandB + " is " + intSum);
@@ -28,11 +28,26 @@ public class Main
 
         double doubleOperandA = 3.50;
         double doubleOperandB = 4.50;
-        double doubleSum = 5.50;
-        double doubleProduct = 6.50;
-        double doubleDifference = 7.50;
-        double doubleQuotient = 8.50;
+        double doubleSum;
+        double doubleProduct;
+        double doubleDifference;
+        double doubleQuotient;
+        double doubleModulo;
 
+        doubleSum = doubleOperandA + doubleOperandB; //+
+        System.out.println("The sum using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum);
+
+        doubleProduct = doubleSum * doubleOperandB; //*
+        System.out.println("The product of doubles " + doubleSum + " and " + doubleOperandB + " is " + doubleProduct);
+
+        doubleDifference = doubleOperandB - doubleOperandA; //-
+        System.out.println("The difference of doubles " + doubleOperandB + " and " + doubleOperandA + " is " + doubleDifference);
+
+        doubleQuotient = doubleProduct/ doubleSum; // /
+        System.out.println("The quotient of doubles " + doubleProduct + " and " + doubleSum + " is " + doubleQuotient);
+
+        doubleModulo = doubleSum % doubleOperandB; // %
+        System.out.println("The remainder of " + doubleSum + " divided by " + doubleOperandB + " is " + doubleModulo);
 
     }
 }
