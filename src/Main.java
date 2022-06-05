@@ -19,10 +19,10 @@ public class Main
         intDifference = intOperandB - intOperandA; //-
         System.out.println("The difference of ints " + intOperandB + " and " + intOperandA + " is " + intDifference);
 
-        intQuotient = intProduct/ intSum;
+        intQuotient = intProduct/ intSum; // /
         System.out.println("The quotient of ints " + intProduct + " and " + intSum + " is " + intQuotient);
 
-        intModulo = intSum % intOperandB;
+        intModulo = intSum % intOperandB; // %
         System.out.println("The remainder of " + intSum + " divided by " + intOperandB + " is " + intModulo);
 
 
