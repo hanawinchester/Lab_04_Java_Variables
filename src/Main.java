@@ -2,9 +2,9 @@ public class Main
 {
     public static void main(String[] args)
     {
-        double purchasePrice = 20.20;
-        double salesTax = purchasePrice * .05;
-        double Total = purchasePrice + salesTax;
+        double purchasePrice = 20.20; //price
+        double salesTax = purchasePrice * .05; //tax
+        double Total = purchasePrice + salesTax; //price and tax, total
         System.out.println("The sales tax for a purchase of $" + purchasePrice + " is $" + salesTax + ". Your total price is $" + Total + ".");
     }
 }
