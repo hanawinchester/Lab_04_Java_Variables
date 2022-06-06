@@ -49,5 +49,14 @@ public class Main
         doubleModulo = doubleSum % doubleOperandB; // %
         System.out.println("The remainder of " + doubleSum + " divided by " + doubleOperandB + " is " + doubleModulo);
 
+        //Variables
+        double myLunchCost = 12.50;
+        int numOfKids = 2;
+        double gasPrice = 5.50;
+        int favoriteNumber = 21;
+        double shoeSize = 8.5;
+        String birthMonth = "December";
+        String fullName = "Hana Rose Winchester";
+
     }
 }
